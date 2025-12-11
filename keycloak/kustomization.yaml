@@ -4,8 +4,8 @@ kind: Kustomization
 resources:
   - keycloak/1-namespace.yaml
   - keycloak/2-keycloak-operator.yaml
-  - keycloak/3-secret.yaml
+  - keycloak/secret_updated.yaml
   - keycloak/4-Keycloak-postgresSQL.yaml
-  - keycloak/5-keycloak-instance.yaml
-  - keycloak/6-keycloak-realm.yaml
+  - keycloak/5-my-keycloak-instance.yaml
+  - keycloak/6-keycloak_updated-realm.yaml
 ...
